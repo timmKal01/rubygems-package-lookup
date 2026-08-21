@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of RubyGems Package Lookup",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Gem details",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

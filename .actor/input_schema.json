@@ -1,0 +1,16 @@
+{
+    "title": "RubyGems Package Lookup Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "gemNames": {
+            "title": "Gem names",
+            "type": "array",
+            "editor": "stringList",
+            "description": "One or more RubyGems package names to look up, e.g. \"rails\", \"rspec\", \"nokogiri\".",
+            "prefill": ["rails"],
+            "default": ["rails"]
+        }
+    },
+    "required": []
+}

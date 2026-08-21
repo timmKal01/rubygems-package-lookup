@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "rubygems-package-lookup",
+    "title": "RubyGems Package Lookup",
+    "description": "Look up current version, total downloads, license, runtime dependencies, and yanked status for any RubyGems package via the official rubygems.org API.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}
