@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "gemName",
+                    "found",
+                    "latestVersion",
+                    "latestVersionReleasedAt",
+                    "yanked",
+                    "totalDownloads",
+                    "latestVersionDownloads",
+                    "licenses",
+                    "authors",
+                    "homepageUrl",
+                    "sourceCodeUrl",
+                    "documentationUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "gemName": {
+                        "label": "Gem name",
+                        "format": "text"
+                    },
+                    "found": {
+                        "label": "Found",
+                        "format": "boolean"
+                    },
+                    "latestVersion": {
+                        "label": "Latest version",
+                        "format": "text"
+                    },
+                    "latestVersionReleasedAt": {
+                        "label": "Latest version released at",
+                        "format": "date"
+                    },
+                    "yanked": {
+                        "label": "Yanked",
+                        "format": "boolean"
+                    },
+                    "totalDownloads": {
+                        "label": "Total downloads",
+                        "format": "number"
+                    },
+                    "latestVersionDownloads": {
+                        "label": "Latest version downloads",
+                        "format": "number"
+                    },
+                    "licenses": {
+                        "label": "Licenses",
+                        "format": "array"
+                    },
+                    "authors": {
+                        "label": "Authors",
+                        "format": "text"
+                    },
+                    "homepageUrl": {
+                        "label": "Homepage URL",
+                        "format": "link"
+                    },
+                    "sourceCodeUrl": {
+                        "label": "Source code URL",
+                        "format": "link"
+                    },
+                    "documentationUrl": {
+                        "label": "Documentation URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
